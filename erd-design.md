@@ -40,6 +40,7 @@ There are schemes that provide better performance for certain queries, but they'
 
 # Other notes
 - Logs for gas teams can be a regular comment with a gas tag
+- In general, data is never deleted. The only exceptions are the counters such as the bytes_[x] fields which are updated on the fly (to be determined which other fields are counters).
 
 
 # Permissions
